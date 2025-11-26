@@ -16,9 +16,9 @@ window.GIX_I18N_EN = {
     "International network of partners, banks, advisory firms and market specialists.",
 
   cardsKicker: "GIX ecosystem",
-  cardsTitle: "Direct access to our main platforms",
+  cardsTitle: "Direct access to our main platforms and technologies",
   cardsSubtitle:
-    "GIX acts through two complementary fronts: advisory for strategy design and a financial platform for execution and operations.",
+    "GIX operates through three complementary fronts: advisory for strategy design, a financial platform for execution and operations, and INOSX's technology layer to orchestrate digital experiences.",
 
   cardConsultLabel: "GIX Consult",
   cardConsultTitle: "Strategy, structuring and project execution.",
@@ -31,6 +31,12 @@ window.GIX_I18N_EN = {
   cardBankBody:
     "Explore GIX's financial platform for structured deals, banking-as-a-service, payments and tailored funding solutions.",
   cardBankCta: "Go to gixbank.com",
+
+  cardInosxLabel: "INOSX Tech",
+  cardInosxTitle: "Technology solutions and digital platforms.",
+  cardInosxBody:
+    "Discover INOSX, the technology company within the GIX ecosystem that builds digital platforms, integrates APIs, data and omnichannel journeys to connect advisory, financial operations and user experience.",
+  cardInosxCta: "Go to inosx.com",
 
   previewTag: "Website preview",
 

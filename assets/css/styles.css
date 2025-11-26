@@ -299,7 +299,7 @@ a {
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.4rem;
 }
 
@@ -352,6 +352,11 @@ a {
 .card-label.bank {
   border-color: rgba(59, 130, 246, 0.9);
   color: #bfdbfe;
+}
+
+.card-label.tech {
+  border-color: rgba(56, 189, 248, 0.9);
+  color: #bae6fd;
 }
 
 .product-card h3 {
@@ -536,7 +541,7 @@ a {
   }
 
   .cards-grid {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .services-grid {
