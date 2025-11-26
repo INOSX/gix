@@ -1,17 +1,20 @@
 ;(function () {
-  const SUPPORTED_LANGS = ['pt', 'en']
+  const SUPPORTED_LANGS = ['pt', 'en', 'es']
   const FALLBACK_LANG = 'pt'
 
   function getInitialLang() {
     const stored = window.localStorage.getItem('gix_lang')
     if (stored && SUPPORTED_LANGS.includes(stored)) return stored
     const browser = navigator.language || navigator.userLanguage || ''
-    if (browser.toLowerCase().startsWith('pt')) return 'pt'
+    const lower = browser.toLowerCase()
+    if (lower.startsWith('pt')) return 'pt'
+    if (lower.startsWith('es')) return 'es'
     return FALLBACK_LANG
   }
 
   function getMessages(lang) {
     if (lang === 'en') return window.GIX_I18N_EN || window.GIX_I18N_PT
+    if (lang === 'es') return window.GIX_I18N_ES || window.GIX_I18N_PT
     return window.GIX_I18N_PT || window.GIX_I18N_EN
   }
 
