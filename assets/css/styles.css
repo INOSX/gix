@@ -14,7 +14,7 @@ body {
 body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
-  color: #0f172a;
+  color: #f9fafb;
   background: #0b1020;
   -webkit-font-smoothing: antialiased;
 }
@@ -116,11 +116,12 @@ a {
   font-size: 1.08rem;
   font-weight: 600;
   letter-spacing: 0.03em;
+  color: #020617;
 }
 
 .logo-subtitle {
   font-size: 0.8rem;
-  color: #9ca3af;
+  color: #6b7280;
 }
 
 .header-actions {
@@ -180,6 +181,7 @@ a {
   line-height: 1.1;
   letter-spacing: -0.03em;
   margin-bottom: 1.1rem;
+  color: #f9fafb;
 }
 
 .hero-logo {
@@ -202,7 +204,7 @@ a {
 .hero-lead {
   font-size: 0.98rem;
   line-height: 1.6;
-  color: #d1d5db;
+  color: #e5e7eb;
   max-width: 34rem;
 }
 
@@ -252,12 +254,12 @@ a {
 }
 
 .hero-item h3 {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-bottom: 0.35rem;
 }
 
 .hero-item p {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #9ca3af;
   line-height: 1.6;
 }
