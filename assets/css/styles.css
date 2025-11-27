@@ -107,10 +107,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: #0b1120;
   box-shadow: 0 10px 35px rgba(59, 130, 246, 0.4);
+}
+
+.logo-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
 }
 
 .logo-text {
@@ -187,6 +190,18 @@ a {
   line-height: 1.1;
   letter-spacing: -0.03em;
   margin-bottom: 1.1rem;
+}
+
+.hero-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1.1rem;
+}
+
+.hero-logo img {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
 }
 
 .hero-lead {
