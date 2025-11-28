@@ -46,7 +46,7 @@
     </header>
 
     <main class="main-content">
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="hero-text">
           <div class="hero-logo">
             <img src="assets/img/logo.png" alt="Logo GIX central" />
@@ -91,7 +91,7 @@
         </div>
       </section>
 
-      <section class="cards-section">
+      <section class="cards-section" id="cards">
         <header class="section-header">
           <span class="section-kicker" data-i18n="cardsKicker">Ecossistema GIX</span>
           <h2 data-i18n="cardsTitle">
@@ -213,7 +213,7 @@
         </div>
       </section>
 
-      <section class="services-section">
+      <section class="services-section" id="services">
         <header class="section-header">
           <span class="section-kicker" data-i18n="servicesKicker">Serviços da GIX</span>
           <h2 data-i18n="servicesTitle">Do desenho da estratégia à operação financeira</h2>
@@ -258,23 +258,62 @@
     </main>
 
     <footer class="site-footer">
-      <div class="footer-main">
-        <div class="footer-brand">
-          <span class="footer-logo">GIX</span>
-          <span class="footer-name" data-i18n="footerBrand"
-            >Global Innovations Exchange</span
-          >
+      <div class="footer-top">
+        <div class="footer-info">
+          <div class="footer-identity">
+            <div class="footer-logo-pill">G</div>
+            <div class="footer-identity-text">
+              <span class="footer-company">Global Innovations Exchange</span>
+              <p class="footer-tagline">
+                Democratizando o acesso a soluções estratégicas e tecnológicas seguras para empresas.
+              </p>
+              <span class="footer-origin">GIX, Inc. • Empresa dos EUA</span>
+            </div>
+          </div>
+          <div class="footer-social">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <span>in</span>
+            </a>
+            <a href="mailto:contact@globalinnovationsexchange.com" aria-label="Email">
+              <span>@</span>
+            </a>
+          </div>
         </div>
-        <p class="footer-text" data-i18n="footerText">
-          Esta é uma landing page institucional que conecta você às principais
-          frentes da GIX. Para informações adicionais, utilize os canais
-          disponíveis em cada plataforma.
-        </p>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Plataforma</h4>
+            <a href="#hero">Início</a>
+            <a href="#cards">Produtos</a>
+            <a href="#services">Serviços</a>
+          </div>
+          <div class="footer-column">
+            <h4>Suporte</h4>
+            <a href="#">Termos de Serviço</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#contact">Contato</a>
+          </div>
+        </div>
+
+        <div class="footer-contact-card" id="contact">
+          <h4>Contato</h4>
+          <div class="contact-line">
+            <span>Email</span>
+            <a href="mailto:contact@globalinnovationsexchange.com">contact@globalinnovationsexchange.com</a>
+          </div>
+          <div class="contact-line">
+            <span>Telefone</span>
+            <a href="tel:+13024878494">+1 (302) 487-8494</a>
+          </div>
+          <div class="contact-line address">
+            <span>Endereço</span>
+            <p>9450 SW Gemini Dr, Beaverton, OR 97008, EUA</p>
+          </div>
+        </div>
       </div>
-      <div class="footer-meta">
-        <span class="footer-copy">
-          © <span id="year"></span> GIX. <span data-i18n="footerRights">Todos os direitos reservados.</span>
-        </span>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> GIX. Todos os direitos reservados.</span>
       </div>
     </footer>
 
