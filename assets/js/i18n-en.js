@@ -59,8 +59,21 @@ window.GIX_I18N_EN = {
     "Connection with innovation hubs, fintechs, banks and partners in different markets to accelerate execution.",
 
   footerBrand: "Global Innovations Exchange",
-  footerText:
-    "This is an institutional landing page that connects you to GIX's main fronts. For additional information, use the channels available on each platform.",
+  footerTagline:
+    "Democratizing access to strategic and secure technology solutions for companies.",
+  footerOrigin: "GIX, Inc. • US-based company",
+  footerPlatformTitle: "Platform",
+  footerPlatformLink1: "Home",
+  footerPlatformLink2: "Products",
+  footerPlatformLink3: "Services",
+  footerSupportTitle: "Support",
+  footerSupportLink1: "Terms of Service",
+  footerSupportLink2: "Privacy Policy",
+  footerSupportLink3: "Contact",
+  footerContactTitle: "Contact",
+  footerEmailLabel: "Email",
+  footerPhoneLabel: "Phone",
+  footerAddressLabel: "Address",
   footerRights: "All rights reserved.",
 };
 
